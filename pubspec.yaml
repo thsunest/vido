@@ -1,0 +1,83 @@
+name: vido
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.5.1
+  get: ^4.7.2
+  flutter_acrylic: ^1.1.4
+  tdesign_flutter: ^0.2.2
+  desktop_multi_window: ^0.2.1
+  dio: ^5.8.0+1
+  get_storage: ^2.1.1
+  flutter_webrtc: ^1.0.0
+  better_web_socket: ^1.0.1
+  shared_preferences: ^2.5.3
+  flutter_svga: ^0.0.4
+  audioplayers: ^6.5.0
+  image: ^4.5.4
+  path_provider: ^2.1.5
+  easy_localization: ^3.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6 
+  easy_localization_loader: 2.0.2 # 用于加载 ARB 或 JSON 文件
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/sound/ring.mp3
+    - assets/images/login_bg.png
+    - assets/images/login_laptop.png
+    - assets/images/image.png
+    - assets/images/avatar.jpg
+    - assets/icons/clock.png
+    - assets/icons/count.png
+    - assets/icons/user.png
+    - assets/icons/user_2.png
+    - assets/icons/micro.png
+    - assets/icons/micro_2.png
+    - assets/icons/volume.png
+
+    - assets/icons/coin.png
+    - assets/icons/course.png
+    - assets/icons/screen.png
+    - assets/icons/wallet.png
+    - assets/icons/flip.png
+    - assets/icons/revolve.png
+    - assets/icons/book.png
+    - assets/icons/message.png
+    - assets/icons/fire.png
+
+    - assets/translations/en.json
+    - assets/translations/zh.json
+
+  fonts:
+    - family: pingfang
+      fonts:
+        - asset: assets/fonts/pingfang.ttf
+        - asset: assets/fonts/pingfang_h.otf
+          style: italic
+dependency_overrides: 
+  tdesign_flutter_adaptation: 3.16.0
+  image_picker: 1.0.8
+
